@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { ToastContainer }  from 'react-toastify';
-import { DebugToast } from 'ToastLib';
+import { ToastContainer, toast }  from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { DebugToast, DebugToastRef } from 'ToastLib';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,8 @@ class App extends Component {
     return (
       <div>
         <DebugToast />
+        {' '}
+        <DebugToastRef toast={toast}/>
         <ToastContainer/>
       </div>
     );

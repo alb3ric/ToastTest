@@ -4,7 +4,7 @@
 
 "ToastLib@https://github.com/alb3ric/ToastLib.git":
   version "1.0.0"
-  resolved "https://github.com/alb3ric/ToastLib.git#30caf1f042b4cfa040aa9714f9f3ef5a6d065bb7"
+  resolved "https://github.com/alb3ric/ToastLib.git#bb0b32d7ca6346d971d6926245b5fe0ede3b6086"
 
 abab@^1.0.3:
   version "1.0.4"
